@@ -1,18 +1,3 @@
-"""
-Self-Organized Criticality in a Distillation Column
-====================================================
-Complexity Science Project - Undergraduate Level
-
-This simulation models a multi-tray distillation column as a
-Self-Organized Critical (SOC) system, analogous to the Bak-Tang-Wiesenfeld
-sandpile model. Each tray represents a node; liquid holdup acts as the
-'sand' variable. When holdup exceeds a critical threshold (flooding),
-an 'avalanche' (cascade of tray disturbances) propagates.
-
-Author: [Your Name]
-Date: 2026
-"""
-
 import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.gridspec as gridspec
